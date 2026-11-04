@@ -1,0 +1,4 @@
+-std=c11
+-I../Sources/MSXCore/include
+-I../Sources/MSXCore
+-Wall

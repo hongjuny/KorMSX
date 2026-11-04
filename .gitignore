@@ -1,0 +1,16 @@
+# Build output
+.build/
+build/
+
+# ROMs are copyrighted and never committed (the bundled C-BIOS is free)
+roms/*
+!roms/README.txt
+
+# Local Claude Code settings
+.claude/
+
+*.ppm
+.DS_Store
+
+# Test binaries and captured screens (scripts/run_tests.sh)
+tests/out/
